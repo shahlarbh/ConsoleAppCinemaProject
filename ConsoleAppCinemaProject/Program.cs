@@ -40,7 +40,7 @@ namespace ConsoleAppCinemaProject
 
             var mars = new Hall
             {
-                Id = 1,
+                Id = 4,
                 Name = "Mars",
                 RowCount = 10,
                 ColumnCount = 10,
@@ -48,7 +48,7 @@ namespace ConsoleAppCinemaProject
 
             var jupiter = new Hall
             {
-                Id = 2,
+                Id = 5,
                 Name = "Jupiter",
                 RowCount = 10,
                 ColumnCount = 10,
@@ -56,7 +56,7 @@ namespace ConsoleAppCinemaProject
 
             var saturn = new Hall
             {
-                Id = 3,
+                Id = 6,
                 Name = "Saturn",
                 RowCount = 10,
                 ColumnCount = 10,
@@ -64,7 +64,7 @@ namespace ConsoleAppCinemaProject
 
             var uran = new Hall
             {
-                Id = 1,
+                Id = 7,
                 Name = "Uran",
                 RowCount = 10,
                 ColumnCount = 10,
@@ -72,7 +72,7 @@ namespace ConsoleAppCinemaProject
 
             var neptun = new Hall
             {
-                Id = 2,
+                Id = 8,
                 Name = "Neptun",
                 RowCount = 10,
                 ColumnCount = 10,
@@ -80,7 +80,7 @@ namespace ConsoleAppCinemaProject
 
             var pluton = new Hall
             {
-                Id = 3,
+                Id = 9,
                 Name = "Pluton",
                 RowCount = 10,
                 ColumnCount = 10,
@@ -212,7 +212,7 @@ namespace ConsoleAppCinemaProject
 
             var sessionTheHiddenFace = new Session
             {
-                Id = 1,
+                Id = 4,
                 Film = theHiddenFace,
                 Hall = mars,
                 Seats = new State[mars.RowCount, mars.ColumnCount],
@@ -223,7 +223,7 @@ namespace ConsoleAppCinemaProject
 
             var sessionLucy = new Session
             {
-                Id = 2,
+                Id = 5,
                 Film = lucy,
                 Hall = jupiter,
                 Seats = new State[jupiter.RowCount, jupiter.ColumnCount],
@@ -234,7 +234,7 @@ namespace ConsoleAppCinemaProject
 
             var sessionDeadpool = new Session
             {
-                Id = 3,
+                Id = 6,
                 Film = deadpool,
                 Hall = saturn,
                 Seats = new State[saturn.RowCount, saturn.ColumnCount],
@@ -245,7 +245,7 @@ namespace ConsoleAppCinemaProject
 
             var sessionDarkFate = new Session
             {
-                Id = 1,
+                Id = 7,
                 Film = darkFate,
                 Hall = uran,
                 Seats = new State[uran.RowCount, uran.ColumnCount],
@@ -256,7 +256,7 @@ namespace ConsoleAppCinemaProject
 
             var sessionInterstellar = new Session
             {
-                Id = 2,
+                Id = 8,
                 Film = interstellar,
                 Hall = neptun,
                 Seats = new State[neptun.RowCount, neptun.ColumnCount],
@@ -267,7 +267,7 @@ namespace ConsoleAppCinemaProject
 
             var sessionRequiemForADream = new Session
             {
-                Id = 3,
+                Id = 9,
                 Film = requiemForADream,
                 Hall = pluton,
                 Seats = new State[pluton.RowCount, pluton.ColumnCount],
